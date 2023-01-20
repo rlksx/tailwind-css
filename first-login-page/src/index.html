@@ -7,10 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/dist/output.css">
-    <title>Document</title>
+    <title>First Login with Tailwind CSS</title>
 </head>
 
-<body class="">
+<body class="bg-gray-200">
+    <div class="max-w-md bg-blue-400 border-2 border-blue-400 rounded-md overflow-hidden"
+    style="border-width: 3px;">
+        <h3>Login</h3>
+
+        <div class="bg-gray-50">
+            <div>
+                <label for="email">E-mail Adress</label>
+                <input type="text" id="email">
+            </div>
+
+            <div>
+                <label for="password"> Password</label>
+                <input type="text" id="password">
+            </div>
+            
+            <div>
+                <button>Login</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
