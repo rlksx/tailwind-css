@@ -10,24 +10,29 @@
     <title>First Login with Tailwind CSS</title>
 </head>
 
-<body class="bg-gray-200">
-    <div class="max-w-md bg-blue-400 border-2 border-blue-400 rounded-md overflow-hidden"
-    style="border-width: 3px;">
-        <h3>Login</h3>
+<body class="bg-gray-100 flex items-center justify-center h-screen w-screen">
+    <div class="max-w-md bg-blue-400 border-2 border-blue-400 rounded-sm overflow-hidden shadow-xl w-80"
+        style="border-width: 3px;">
+        <h3 class="font-medium text-lg text-center pb-1">Login</h3>
 
-        <div class="bg-gray-50">
+        <div class="bg-gray-50 py-3 space-y-3 m-auto w-full px-4">
             <div>
-                <label for="email">E-mail Adress</label>
-                <input type="text" id="email">
+                <label for="email" class="">E-mail Adress</label>
+                <input type="text" id="email"
+                    class="bg-gray-200 rounded-sm border-blue-400 px-1.5 py-0.5 block outline-none w-full"
+                    style="border-width: 3px;">
             </div>
 
             <div>
-                <label for="password"> Password</label>
-                <input type="text" id="password">
+                <label for="password" class=""> Password</label>
+                <input type="text" id="password"
+                    class="bg-gray-200 rounded-sm border-blue-400 px-1.5 py-0.5 block outline-none w-full"
+                    style="border-width: 3px;">
             </div>
-            
-            <div>
-                <button>Login</button>
+            <hr>
+            <div class="border-blue-400 ">
+                <button class="bg-blue-400 text-gray-200 border border-blue-400 rounded-sm px-2 py-0.5 w-full" style="border-width: 3px;">
+                    Confirm</button>
             </div>
         </div>
     </div>
